@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>602호 햄스터 | CRACK 스토리</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="cursor">🌻</div>
+
+    <button id="sound-toggle" class="sound-btn">
+        🔇 Music OFF
+    </button>
+
+    <div id="intro-overlay">
+        <div class="door left-door">
+            <div class="door-knob left-knob"></div>
+        </div>
+        <div class="door right-door">
+            <div class="door-knob right-knob"></div>
+        </div>
+        <div class="intro-content">
+            <h1 class="intro-title">몽글하우스 602호</h1>
+            <button id="enter-btn">똑똑! 문 열기 🚪</button>
+        </div>
+    </div>
+
+    <audio id="bgm" loop>
+        <source src="UpAnd.mp3" type="audio/mp3">
+    </audio>
+
+    <main class="container">
+
+        <div class="floating-emoji" style="top: 5%; left: 5%; font-size: 2.5rem;">💦</div>
+        <div class="floating-emoji" style="top: 15%; right: 10%; font-size: 3rem; animation-duration: 7s;">😱</div>
+        <div class="floating-emoji" style="top: 25%; left: 45%; font-size: 1.5rem; opacity: 0.5;">✨</div>
+        <div class="floating-emoji" style="top: 40%; left: -2%; font-size: 3rem; animation-delay: -5s;">🏠</div>
+        <div class="floating-emoji" style="top: 50%; right: 5%; font-size: 2rem;">🥜</div>
+        <div class="floating-emoji" style="top: 75%; left: 8%; font-size: 2.2rem; animation-delay: -2s;">🐹</div>
+        <div class="floating-emoji" style="top: 85%; right: 15%; font-size: 2.5rem; animation-duration: 9s;">☁️</div>
+        <div class="floating-emoji" style="top: 95%; left: 50%; font-size: 1.8rem; opacity: 0.6;">🎵</div>
+        <div class="floating-emoji" style="top: 105%; left: 2%; font-size: 2.8rem; animation-delay: -3s;">🪳</div>
+        <div class="floating-emoji" style="top: 115%; right: 35%; font-size: 1.8rem; opacity: 0.6;">💧</div>
+        <div class="floating-emoji" style="top: 125%; left: 85%; font-size: 1.5rem;">✨</div>
+        <div class="floating-emoji" style="top: 135%; right: 5%; font-size: 2rem; animation-delay: -4s;">💨</div>
+        <div class="floating-emoji" style="top: 145%; left: 20%; font-size: 2.5rem;">🌻</div>
+
+        <header class="hero-section">
+            <div class="badge">SOS! 바퀴벌레 출몰 🪳</div>
+            <h1 class="main-title">602호<br><span class="highlight">햄스터</span></h1>
+            <p class="sub-text">
+                "저기요.. 죄송한데.. 제발 저것 좀 잡아주세요.. T^T"<br>
+                2026년 겨울 밤, 옆집 여자의 횡설수설 구조 요청.
+            </p>
+        </header>
+
+        <div class="bento-grid">
+
+            <div class="card profile-card">
+                <div class="heroine-badge">MAIN HEROINE 💖</div>
+                <div class="img-wrapper square">
+                    <img src="images/00.png" alt="연수진 프로필" class="profile-img">
+                </div>
+
+                <div class="profile-info">
+                    <div class="info-top">
+                        <div class="name-row">
+                            <h2>연수진</h2>
+                            <span class="job-tag">취준생, 24세</span>
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag mbti">INFJ</span>
+                            <span class="tag">🐹 인간햄스터</span>
+                            <span class="tag">🧊 유리멘탈</span>
+                            <span class="tag">⚙️ 고장난 뚝딱이</span>
+                        </div>
+                    </div>
+
+                    <ul class="trait-list">
+                        <li>📏 <strong>153cm</strong> 작고 소중한 요정 체형</li>
+                        <li>😳 <strong>낯가림 MAX</strong> 눈 3초 이상 못 마주침</li>
+                        <li>🙏 <strong>말버릇</strong> "죄송해요..." (무한반복)</li>
+                    </ul>
+
+                    <div class="tmi-box">
+                        <h4>📝 관찰 일지 (TMI)</h4>
+                        <div class="tmi-content">
+                            <p>• 긴장하면 말이 엄청 빨라지고 아무말 대잔치</p>
+                            <p>• 후드티 모자 끈을 꽉 조이는 버릇이 있음</p>
+                            <p>• 겁이 많아서 가방에 항상 '에프킬라' 소지 중</p>
+                            <p>• 💖 <strong>좋아하는 것:</strong> 해바라기씨 초코볼, 전기장판</p>
+                            <p>• 🚫 <strong>싫어하는 것:</strong> 벌레, 귀신, 큰 소리, 갑툭튀</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+
+                <div class="card stat-card">
+                    <h3 class="card-title">⚡ 능력치 분석</h3>
+
+                    <div class="stat-group">
+                        <div class="stat-label">
+                            <span>쫄보력 (Fear)</span>
+                            <span class="percent">999%</span>
+                        </div>
+                        <div class="progress-bar striped pink">
+                            <div class="fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-group">
+                        <div class="stat-label">
+                            <span>햄스터력 (Cute)</span>
+                            <span class="percent">MAX</span>
+                        </div>
+                        <div class="progress-bar striped brown">
+                            <div class="fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-group">
+                        <div class="stat-label">
+                            <span>사회성 (Social)</span>
+                            <span class="percent">E...rror</span>
+                        </div>
+                        <div class="progress-bar striped gray">
+                            <div class="fill" style="width: 15%"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-extra">
+                        <div class="extra-box">
+                            <h4>☠️ 치명적 약점</h4>
+                            <ul class="extra-list weakness">
+                                <li>🪳 바퀴벌레 <span class="sub-stat">(기절)</span></li>
+                                <li>👀 아이컨택 <span class="sub-stat">(3초컷)</span></li>
+                                <li>🔊 큰 소리 <span class="sub-stat">(화들짝)</span></li>
+                                <li>👻 귀신/호러 <span class="sub-stat">(거품)</span></li>
+                            </ul>
+                        </div>
+                        <div class="extra-box">
+                            <h4>🎒 보유 스킬</h4>
+                            <ul class="extra-list skill">
+                                <li>💨 에프킬라 난사 <span class="sub-stat">(명중0)</span></li>
+                                <li>🙇‍♀️ 무한 사과하기 <span class="sub-stat">(반사적)</span></li>
+                                <li>💬 아무말 대잔치 <span class="sub-stat">(패시브)</span></li>
+                                <li>🛡️ 이불 속에 숨기 <span class="sub-stat">(방어↑)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card info-card">
+                    <h3 class="card-title">🏢 몽글하우스 정보</h3>
+                    <div class="scroll-wrapper">
+                        <ul class="info-list">
+                            <li><strong>🏗️ 구조:</strong> 지상 6층 신축 필로티, 화이트 대리석 마감</li>
+                            <li><strong>🔒 보안:</strong> 1층 공동현관 비밀번호 입력 필수, CCTV 24시간 녹화 (안심!)</li>
+                            <li><strong>✨ 복도:</strong> 깨끗한 베이지 타일, 센서등이 아주 예민함</li>
+                            <li><strong>🔊 방음:</strong> 벽간 소음X, 복도 소리는 잘 들림 주의</li>
+                            <li><strong>🛏️ 옵션:</strong> 6~7평형 오픈형 원룸, 풀옵션(드럼세탁기/에어컨/인덕션),</li>
+                            <li><strong>🤫 6층:</strong> 601호(유저) & 602호(수진)만 거주. 매우 조용함</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://crack.wrtn.ai/detail/6969f6147228ce4688c7f56d" class="card action-card" target="_blank">
+                <div class="action-text">
+                    <h3>구해주러 가기</h3>
+                    <p>지금 바로 수진이를 도와주세요!</p>
+                </div>
+                <div class="arrow-icon">🚀</div>
+            </a>
+        </div>
+
+        <footer>
+            <p>© 2026 Directed by FOXY | 602호 햄스터 </p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
